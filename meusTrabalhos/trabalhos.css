@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #ff9011 0%, #ff1b5f 100%);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.menu{
+    background-color: #222;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.1);
+    transform: border bottom 1s;
+    text-align: center;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    display:inline;
+    margin: 0 20px;
+    font-size: 20pt;
+}
+#diferente{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: color 0.3 ease-in-out;
+    font-size: 20pt;   
+}
+#diferente:hover{
+    color: #ff9011;
+    background-color: #222;
+    border-bottom: 0.5em solid #ff9011; 
+}
+h1{
+    margin: 20px 0;
+    font-size: 24pt;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transform: border;
+}
+.container img{
+    width: 80%;
+    height: 80%;
+    max-height: 68vh;
+    border-radius: 60px;
+    border: 2px solid black; 
+}
+.container img:hover{
+    transform: scale(1.1);
+    border: #ff9011;
+}
+#imgDiferente {
+    margin-left: 100px;
+    width: 70%;
+
+}
